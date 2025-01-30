@@ -1,5 +1,0 @@
-# LeakSanitizer suppressions file for FDB
-# https://github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer
-
-# Not all incoming connections are cleanly shut down in client API tests
-leak:ConnectionReaderActorState
